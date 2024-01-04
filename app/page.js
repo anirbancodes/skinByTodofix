@@ -1,18 +1,11 @@
-import BrandCarousel from "@/components/BrandCarousel";
-import Carousel from "@/components/Carousel";
-import DesignsHome from "@/components/DesignsHome";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import SiteFeatures from "@/components/SiteFeatures";
+import Skin from "@/app/Skin";
+import R_Price from "@/components/R_Price";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
-      <BrandCarousel />
-      <DesignsHome />
-      <SiteFeatures />
-      <Footer />
+      <Skin />
+      <R_Price />
     </main>
   );
 }

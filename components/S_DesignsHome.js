@@ -1,5 +1,5 @@
 import React from "react";
-import DesignCard from "./DesignCard";
+import DesignCard from "./S_DesignCard";
 import Hr from "./Hr";
 
 let designs = [
